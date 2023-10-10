@@ -1,17 +1,11 @@
-# BookHaven
-This is the group repository for the midterm project.
+# 📖 Book Haven
+## 👨‍💻Group members
+- Clayton Ismail Nagle --- 2206021951
+- Mochammad Ezar Yudha --- 2206046746
+- Gusti Faturahman Rais --- 2206821241
+- Alfian Fadhlurrahman --- 2206821683
 
-## i. Group name and members
-Group name : 
-PBPK6
-
-Members :
-- Clayton Ismail Nagle (2206021951)
-- Mochammad Ezar Yudha (2206046746)
-- Gusti Faturahman Rais (2206821241)
-- Alfian Fadhlurrahman (2206821683)
-
-## ii. The Story of the application and its benefits
+## 📜 The Story of the application
 
 In a world driven by technology, the art of storytelling should be easily accessible to all. This is the vision that sparked the creation of "Book Haven." The founders, a diverse group of readers, writers, and tech enthusiasts, shared a common passion for literature. They envisioned a platform where writers could freely share their stories, and readers could explore a vast collection of books tailored to their tastes. Thus, "Book Haven" was born.
 
@@ -25,18 +19,36 @@ To cater to different roles within the platform, the team established three dist
 
 And so, "Book Haven" was ready to embark on its journey, inviting writers, readers, and enthusiasts from all walks of life to join them in their literary haven. Together, they would create a space where stories thrived, and the love for books knew no bounds.
 
-## iii. List of modules (or, features) that will be implemented
-1. 
+## 📲 Features
+- Book List
+- Book Review
+- Book Recommendation
+- Book Search
+- User Account
+- User Books
+- Book Management (add, edit, delete)
 
+## 📘Dataset
+For this project, we utilized the [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) sourced from Kaggle.
 
-## iv. The source of the book catalog dataset
-for this project we use [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) from kaggle.
+## ❇️ User roles
+1. Admin
+- Create, edit, and delete user accounts (both customers and staff).
+- Assign roles and permissions to other users.
+- Add, edit, and remove books from the bookstore's inventory.
+- Update book details such as title, author, genre, price, quantity, etc.
+- Manage book categories and tags.
 
-## v. Possible user roles
-1. Administrator
-- Manage books
 2. Users:
-- Read, review, give ratings, search books
-3. Writers:
-- Create books
-- Edit books
+- Search for books based on various criteria (e.g., title, author, genre, etc.).
+- View book details, including title, author, price, availability, and description.
+- Explore book categories and genres.
+- Write reviews for books and provide star ratings.
+- Edit or delete their own reviews.
+- Receive book recommendations based on browsing history, purchases, and preferences.
+
+3. Writer:
+- Submit new books for consideration to be added to the website.
+- Provide essential book details, including title, author, genre, description, price, etc.
+- Edit book details for books that are already in the website (e.g., updating descriptions, correcting details).
+- Edit book covers, author information, and other relevant book-related content.
