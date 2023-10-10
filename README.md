@@ -28,4 +28,15 @@ And so, "Book Haven" was ready to embark on its journey, inviting writers, reade
 ## iii. List of modules (or, features) that will be implemented
 1. 
 
-## iv. Possible user roles
+
+## iv. The source of the book catalog dataset
+for this project we use [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) from kaggle.
+
+## v. Possible user roles
+1. Administrator
+- Manage books
+2. Users:
+- Read, review, give ratings, search books
+3. Writers:
+- Create books
+- Edit books
