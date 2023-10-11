@@ -28,7 +28,7 @@ And so, "Book Haven" was ready to embark on its journey, inviting writers, reade
 - User Books
 - Book Management (add, edit, delete)
 
-## 📘Dataset
+## 📘 Dataset
 For this project, we utilized the [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) sourced from Kaggle.
 
 ## ❇️ User roles
@@ -52,3 +52,10 @@ For this project, we utilized the [Book Recommendation Dataset](https://www.kagg
 - Provide essential book details, including title, author, genre, description, price, etc.
 - Edit book details for books that are already in the website (e.g., updating descriptions, correcting details).
 - Edit book covers, author information, and other relevant book-related content.
+
+## 🤖 Division of Tasks
+
+- Clayton Ismail Nagle --- Genre Reccomendations, Top 3 function
+- Mochammad Ezar Yudha --- Reviews and Ratings, Book features
+- Gusti Faturahman Rais --- Login, Register and Edit Profile
+- Alfian Fadhlurrahman --- Add Book, Book Details
