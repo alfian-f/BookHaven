@@ -5,4 +5,7 @@ app_name = 'main'
 
 urlpatterns = [
     path('', show_main, name='show_main'),
+    path('top/', top, name='top'),
+    path('library/', library, name='library'),
+    path('booklist/', booklist, name='booklist'),
 ]
