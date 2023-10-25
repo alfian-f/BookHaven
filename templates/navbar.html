@@ -27,13 +27,13 @@
             </form>
             <li class="nav-item navbar-nav dropdown ms-2">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Pak Bebe
+                    Hello, {{ user.username }}
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">Account</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="{% url 'main:edit' %}">Edit Profile</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Logout (if logged in)</a></li>
+                    <li><a class="dropdown-item" href="{% url 'main:logout' %}">Logout</a></li>
                 </ul>
             </li>
         </div>
