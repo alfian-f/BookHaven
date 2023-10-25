@@ -8,4 +8,5 @@ urlpatterns = [
     path('top/', top, name='top'),
     path('library/', library, name='library'),
     path('booklist/', booklist, name='booklist'),
+    path('register/', register, name='register'),
 ]
